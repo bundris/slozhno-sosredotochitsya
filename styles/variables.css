@@ -1,4 +1,10 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+/* За основу возьмем темную тему */
+:root {
+    --bg-color: #000028;
+    --title-color: #DB00FF;
+    --text-color: #F1B2CE;
+    --accent-color: #FF0070;
+    --accent-color-alpha40: rgba(255, 0, 112, 0.4);
+    --main-font: 'IBM Plex mono';
+    --bg-img: url("../images/cover-image-dark.png");
+}
