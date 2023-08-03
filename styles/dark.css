@@ -7,8 +7,15 @@
 .page.theme_dark {
     --bg-color: #000028;
     --title-color: #DB00FF;
+    --header-color: #FF0070;
+    --subheader-color: #000028;
     --text-color: #F1B2CE;
+    --menu-color: #FF0070;
+    --shadow-color: #FF0070;
+    --link-shadow-color: #FF0070;
     --accent-color: #FF0070;
+    --corner-color: #FF0070;
     --accent-color-alpha40: rgba(255, 0, 112, 0.4);
+    --main-font: 'IBM Plex mono';
     --bg-img: url("../images/cover-image-dark.png");
 }
