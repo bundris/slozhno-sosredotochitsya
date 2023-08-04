@@ -1,5 +1,5 @@
 .page.theme_light {
-    --bg-color: #353430;
+    --bg-color: rgb(252, 239, 246);
     --title-color: #FFC2E6;
     --header-color: #353430;
     --subheader-color: #353430;
@@ -26,7 +26,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --bg-color: #353430;
+        --bg-color: rgb(252, 239, 246);
         --title-color: #FFC2E6;
         --header-color: #353430;
         --subheader-color: #353430;

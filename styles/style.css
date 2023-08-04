@@ -98,6 +98,10 @@
     line-height: 23.4px;
 }
 
+.header__theme-menu-button:hover {
+    cursor: pointer;
+}
+
 .header__theme-menu-button_active {
     outline: 1px solid var(--menu-color);
     pointer-events: none;
