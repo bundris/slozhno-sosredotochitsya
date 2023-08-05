@@ -2,7 +2,7 @@
 :root {
     --bg-color: #000028;
     --title-color: #DB00FF;
-    --header-color: #000028;
+    --header-color: #FF0070;
     --subheader-color: #000028;
     --text-color: #F1B2CE;
     --menu-color: #FF0070;
@@ -13,4 +13,5 @@
     --accent-color-alpha40: rgba(255, 0, 112, 0.4);
     --main-font: 'IBM Plex mono';
     --bg-img: url(../images/cover-image-dark.png);
+    --gap: 10px;
 }

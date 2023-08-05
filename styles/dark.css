@@ -19,3 +19,7 @@
     --main-font: 'IBM Plex mono';
     --bg-img: url(../images/cover-image-dark.png);
 }
+
+.theme_dark .header__topcorner {
+  display: inline;
+}
