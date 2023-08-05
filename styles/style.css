@@ -101,6 +101,8 @@
 .header__theme-menu-button:hover {
     cursor: pointer;
     border: 1px solid var(--accent-color-alpha40);
+    padding-block-end: 4px;
+    padding-inline: 12px;
 }
 
 .header__theme-menu-button_active {
@@ -113,6 +115,7 @@
     display: inline-block;
     background-color: transparent;
     border:0;
+    height: 100%;
     color: var(--menu-color);
     padding-inline: 13px;
     text-transform: lowercase;
