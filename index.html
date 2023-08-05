@@ -5,28 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="color-scheme" content="dark light">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/globals.css">
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/variables.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/dark.css">
-    <link rel="stylesheet" href="./styles/light.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles/globals.css">
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/dark.css">
+    <link rel="stylesheet" href="styles/light.css">
     <title>Сложно сосредоточиться</title>
   </head>
   <body class="page">
-    <header class="header">
+    <header class="header camera">
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
-              class="header__theme-menu-button header__theme-menu-button_type_light"
+              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_light"
             >
               День
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
-              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+              class="header__theme-menu-button header__theme-menu-button_type_auto"
               disabled
             >
               Авто
@@ -167,18 +167,18 @@
         </ul>
       </section>
       <section class="advices_in_pictures">
-        <h3 class="title-decor">А можно в картинках?</h3>
+        <h2 class="title-decor section__subheader">А можно в картинках?</h2>
         <div class="gallery">
-          <div class="horizontal"><img src="./images/sunset.png" class="gallery__image" alt="sunset"></div>
-          <div class="vertical"><img src="./images/ice-cream.png" class="gallery__image" alt="ice-cream"></div>
-          <div class="vertical"><img src="./images/tape.png" class="gallery__image" alt="tape"></div>
-          <div class="square"><img src="./images/books.png" class="gallery__image" alt="books"></div>
-          <div class="horizontal"><img src="./images/street.png" class="gallery__image" alt="street"></div>
+          <img src="./images/sunset.png"    class="gallery__image horizontal" alt="Закат">
+          <img src="./images/ice-cream.png" class="gallery__image vertical"   alt="Мороженое">
+          <img src="./images/tape.png"      class="gallery__image vertical"   alt="Кассета">
+          <img src="./images/books.png"     class="gallery__image square"     alt="Книги">
+          <img src="./images/street.png"    class="gallery__image horizontal" alt="Улица">
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <p class="footer__text">focus</p>
+    <footer class="footer camera">
+      <h2 class="footer__text">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>
